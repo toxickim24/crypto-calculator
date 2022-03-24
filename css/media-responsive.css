@@ -1,0 +1,35 @@
+@media only screen and (max-width: 836px) {
+  .container {
+    max-width: 600px;
+    padding: 65px 10px 56px 10px;
+  }
+
+  .logo-img {
+    width: 107.75px;
+    height: 40px;
+    margin: 0 auto;
+  }
+
+  .card {
+    margin: 45px, 10px, 40px, 10px;
+    padding: 75px 20px 70px 20px;
+  }
+
+  .card-btn {
+    padding: 20px 79px 20px 81px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    max-width: 351px;
+    padding: 65px 10px 56px 10px;
+  }
+
+  .card {
+    margin: 45px, 10px, 40px, 10px;
+    padding: 75px 20px 70px 20px;
+  }
+}

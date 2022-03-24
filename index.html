@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" type="text/css" href="css/custom-checkbox.css">
+    <link rel="stylesheet" type="text/css" href="css/custom-range.css">
+    <link rel="stylesheet" type="text/css" href="css/my-styles.css">
+    <link rel="stylesheet" type="text/css" href="css/media-responsive.css">
+    
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- LOGO -->
+        <div class="logo">
+            <a href="/"><img src="img/crypto-logo.png" class="logo-img"></a>
+        </div>
+
+        <!-- CARD -->
+        <div class="card">
+
+            <!-- TITLE -->
+            <div class="do-you-wrapper">
+                <p class="card-title">Do you?</p>
+
+                <div class="check-lists-wrapper">
+
+                    <ul class="check-lists">
+                        <li>
+                            <input type="checkbox" name="check-list1">
+                            <label for="check-list-1">( Buy and sell )kjøp og salg +7000</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="check-list2">
+                            <label for="check-list2">Futures/leverage +4000</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="check-list3">
+                            <label for="check-list3">Farming/Yield Farming/Liquidity Mining +6000</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="check-list4">
+                            <label for="check-list4">kjøp av noder eller lignende +8000</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="check-list5">
+                            <label for="check-list5">NFT`er +5000</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="check-list6">
+                            <label for="check-list6">Fått airdrop +4000</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="check-list7">
+                            <label for="check-list7">Mining +5000 </label>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="transactions-wrapper">
+                <p class="card-title">How many transactions</p>
+
+                <label class="custom-range-slider range">
+                    <input type="range" id="range" min="500" max="2000" value="900">
+                </label>  
+            </div>
+
+            <!-- BUTTON -->
+            <div class="card-btn-wrapper">
+                <a href="#" class="card-btn">Your price to deliver</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/my-scripts.js"></script>
+    
+</body>
+</html>
